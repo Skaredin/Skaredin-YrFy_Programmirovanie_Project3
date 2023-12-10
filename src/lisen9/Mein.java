@@ -27,7 +27,7 @@ public class Mein {
                         break;
                     }
                 }
-                System.out.println("Элемент массива " + i + " = " + num[i]);
+
             }
 
 

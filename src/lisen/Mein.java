@@ -5,6 +5,7 @@ public class Mein {
 
     public static void main(String[] args) {
         try  {
+            System.out.println("В ведите число от 1-7 это будет день");
         for (int t = 0; t < 3; t++) {
             Scanner scanner = new Scanner(System.in);
             int k = Integer.parseInt(scanner.next());
