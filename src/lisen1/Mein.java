@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Mein {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println( "В ведите день недели");
         String k= scanner.nextLine();
 
         int s = 0;
