@@ -9,24 +9,25 @@ public class Mein {
 
         //for (int t = 0; t < 2; t++) {
 
-            Scanner scanner = new Scanner(System.in);
-            int k = scanner.nextInt();
+        Scanner scanner = new Scanner(System.in);
 
-            int[] num= new int[k];
-            int b = 0;
+        System.out.println("В ведите сколько нужно вывести(масива)");
+        int k = scanner.nextInt();
 
-            for (int i=0; i<=num.length; i++)
-            {
-                if (i%5==2)
-                {
-                    num[b]=i;
-                    System.out.println("№ "+b +" масива \n"+"Масив: " +num[b]);
-                    b++;
-                }else{}
+        int[] num = new int[k];
+        int b = 0;
 
+        for (int i = 0; i <= num.length; i++) {
+            if (i % 5 == 2) {
+                num[b] = i;
+                System.out.println("№ " + b + " масива \n" + "Масив: " + num[b]);
+                b++;
+            } else {
             }
 
+        }
 
-       // }
+
+        // }
     }
 }

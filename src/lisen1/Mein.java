@@ -24,7 +24,7 @@ public class Mein {
             for (int i = 0; Mes1[s] == i; i++) {
 
                 String Tum = Mes[Mes1[i]];
-                int Num = Mes1[i];
+                int Num = Mes1[i] +1;
 
                 System.out.println(Tum + " :" + Num);
             }
@@ -33,8 +33,8 @@ public class Mein {
 
             for (int i = Mes1[s1]; Mes1[s1] == i; i++) {
 
-                String Tum = Mes[Mes1[i]];
-                int Num = Mes1[i];
+                String Tum = Mes[Mes1[i]] ;
+                int Num = Mes1[i]+1;
 
                 System.out.println(Tum + " :" + Num);
             }
@@ -44,7 +44,7 @@ public class Mein {
             for (int i = Mes1[s2]; Mes1[s2] == i; i++) {
 
                 String Tum = Mes[Mes1[i]];
-                int Num = Mes1[i];
+                int Num = Mes1[i]+1;
 
                 System.out.println(Tum + " :" + Num);
             }
@@ -54,7 +54,7 @@ public class Mein {
             for (int i = Mes1[s3]; Mes1[s3] == i; i++) {
 
                 String Tum = Mes[Mes1[i]];
-                int Num = Mes1[i];
+                int Num = Mes1[i]+1;
 
                 System.out.println(Tum + " :" + Num);
             }
@@ -64,7 +64,7 @@ public class Mein {
             for (int i = Mes1[s4]; Mes1[s4] == i; i++) {
 
                 String Tum = Mes[Mes1[i]];
-                int Num = Mes1[i];
+                int Num = Mes1[i]+1;
 
                 System.out.println(Tum + " :" + Num);
             }
@@ -74,7 +74,7 @@ public class Mein {
             for (int i = Mes1[s5]; Mes1[s5] == i; i++) {
 
                 String Tum = Mes[Mes1[i]];
-                int Num = Mes1[i];
+                int Num = Mes1[i]+1;
 
                 System.out.println(Tum + " :" + Num);
             }
@@ -84,7 +84,7 @@ public class Mein {
             for (int i = Mes1[s6]; Mes1[s6] == i; i++) {
 
                 String Tum = Mes[Mes1[i]];
-                int Num = Mes1[i];
+                int Num = Mes1[i]+1;
 
                 System.out.println(Tum + " :" + Num);
             }

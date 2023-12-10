@@ -8,12 +8,15 @@ public class Mein {
 
         for (int p = 0; p < 4; p++) {
 
+
             Scanner scanner = new Scanner(System.in);
             Scanner scanner1 = new Scanner(System.in);
 
-
+            System.out.println("В ведите первое число");
             int k = scanner.nextInt();
+            System.out.println("В ведите второе число");
             int k1 = scanner1.nextInt();
+
             int k2 = k + k1;
             int t = 0;
             int t2 = 0;
