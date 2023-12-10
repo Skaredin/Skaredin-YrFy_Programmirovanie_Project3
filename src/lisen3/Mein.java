@@ -6,9 +6,10 @@ public class Mein {
     public static void main(String[] args) {
 
         for (int t = 0; t < 2; t++) {
-
+            System.out.println("В ведите первое число");
             Scanner scanner = new Scanner(System.in);
             int k = scanner.nextInt();
+            System.out.println("В ведите второе число");
             Scanner scanner1 = new Scanner(System.in);
             int k1 = scanner1.nextInt();
             // ????? Не совсем понятно зачем 2 одинаковых ?
